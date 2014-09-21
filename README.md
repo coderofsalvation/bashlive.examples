@@ -1,4 +1,6 @@
 bashlive.examples
 =================
 
-example bashlive applications
+Example bashlive applications
+
+This repository is part of the [www.bashlive.com](www.bashlive.com) project.

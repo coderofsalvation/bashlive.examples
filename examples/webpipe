@@ -1,0 +1,10 @@
+#!/bin/bash 
+# source bashlive 
+cd "$(dirname "$(readlink -f "$0")" )"; shopt -s expand_aliases; . ../bashlive 
+
+# source webpipes
+webpipe::index http://bashlive.com/webpipes
+
+webpipe::list
+
+echo -e "foo,bar,1\nflop,flap,2" | csv2json --delimiter ","

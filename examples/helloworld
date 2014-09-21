@@ -1,0 +1,8 @@
+#!/bin/bash 
+# source bashlive 
+cd "$(dirname "$(readlink -f "$0")" )"; shopt -s expand_aliases; . ../bashlive 
+
+# source a function
+/ /bash/function/string/trim!
+
+echo " hello world! " | trim
